@@ -6,6 +6,7 @@ require("dotenv").config()
 app.use(express.json())
 app.use(cors());
 
+
 const {connection} = require("./db")
 const {travelRouter} = require("./routes/travel.route")
 
